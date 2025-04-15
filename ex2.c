@@ -10,7 +10,7 @@
 // ler números
 int get_num(void) {
     char buf[32];
-    printf("Digite um número inteiro:\n");
+    printf("Digite um número:\n");
 
     if (fgets(buf, sizeof(buf), stdin) == NULL) {
         fprintf(stderr, "Erro na leitura!\n");
